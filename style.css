@@ -23,6 +23,15 @@ content {
   height: 20%;
   width: 100%;
   background-color: bisque;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+
+  .display-text {
+    height: 25%;
+    margin: 0;
+  }
 }
 
 .grid {
@@ -38,7 +47,7 @@ content {
 .grid-row {
   height: 18%;
   width: 100%;
-  
+
   display: flex;
   justify-content: space-around;
   align-items: center;
