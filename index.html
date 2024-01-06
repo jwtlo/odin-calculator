@@ -9,15 +9,21 @@
   <body>
     <content>
       <div class="display">
-        <p class="display-text left-operand"></p>
-        <p class="display-text display-operator"></p>
-        <p class="display-text right-operand"></p>
-        <p class="display-text result"></p>
+        <div class ="display-row row-1">
+          <span class="display-text left-operand"></span>
+          <span class="display-text display-operator"></span>
+          <span class="display-text right-operand"></span>
+        </div>
+        <div class ="display-row row-2">
+          <span class="display-text result"></span>
+        </div>
       </div>
       <div class="grid">
         <div class="grid-row">
           <button class="clear">CLR</button>
           <button class="delete">DEL</button>
+          <div class="empty"></div>
+          <div class="empty"></div>
         </div>
         <div class="grid-row">
           <button class="number">7</button>
