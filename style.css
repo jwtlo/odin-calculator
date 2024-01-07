@@ -38,41 +38,41 @@ content {
   
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 0px; 
+}
+
+.display-row {
+  /* border: 1px solid white; */
   
-  .display-row.row-1 {
-    height: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
-    .display-text {
-      font-size: 20px;
-    }
-  }
+.row-1 {
+  height: 40%;
+}
 
-  .display-row.row-2 {
-    height: 60%;
+.row-2 {
+  height: 60%;
+}
 
-    .display-text {
-      font-size: 30px;
-    }
-  }
+.display-text {
+  height: 50%;
+  color: #e4e1ff;
+  vertical-align: baseline;
+}
 
-  .display-row {
-    /* border: 1px solid white; */
-    
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.row-1 .display-text {
+  font-size: 20px;
+}
 
-    .display-text {
-      height: 50%;
-      color: #e4e1ff;
-      vertical-align: baseline;
-    }
-  }
+.result {
+  font-size: 30px;
+}
 
-  .display-operator:not(:empty), .right-operand:not(:empty) {
-    margin-left: 3px;
-  }
+.display-operator:not(:empty), .right-operand:not(:empty) {
+  margin-left: 3px;
 }
 
 .grid {
